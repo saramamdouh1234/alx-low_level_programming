@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int n = 0;
+	int  digit  = 0;
 
-	while (n <= 9)
+	while (digit <= 9)
 	{
-		pruntf("%d", n);
+		printf("%d", digit);
 		n++;
 	}
 	printf("\n");

@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
 * print_alphabet - make the alphabet
 *
-* Return: viod 
+* Return: viod
 */
-
 void print_alphabet(void)
 {
 int ch;

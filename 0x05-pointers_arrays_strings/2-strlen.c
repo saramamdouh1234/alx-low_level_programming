@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * _strlen - returns the length of a string
@@ -8,9 +8,14 @@
  */
 int _strlen(char *s)
 {
-	int counter;
+	int i;
 
-	for (counter = 0; *s != '\n'; s++)
-		++counter;
-	return (counter);
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }

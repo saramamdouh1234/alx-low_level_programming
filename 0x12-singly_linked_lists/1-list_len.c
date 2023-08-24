@@ -8,13 +8,10 @@
  */
 size_t list_len(const list_t *h)
 {
-	const list_t *current = h;
-	unsigned int n; /* counter for number of elements */
-
-	j = 0;
-	while (current != NULL)
+	size_t j = 0;
+	while (h)
 	{
-		current = current->next;
+		h = h->next;
 		j++;
 	}
 	return (j);

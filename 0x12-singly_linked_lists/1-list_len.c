@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * list_len - returns the number of elements in a linked list
- * @h: list to evaluate
- * Return: number of elements in the linked list
+ * list_len - determines length of linked list
+ * @h: pointer to first node
+ * Return: size of list
  */
 size_t list_len(const list_t *h)
 {

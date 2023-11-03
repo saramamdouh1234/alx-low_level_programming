@@ -1,4 +1,6 @@
 #include "hash_tables.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * hash_djb2 - implementation  djb2 algorithm
@@ -13,7 +15,7 @@ unsigned long int hash_djb2(const unsigned char *str)
 	hash = 5381;
 	while ((c = *str++))
 	{
-		hash = ((hash << 5) + hash) + c; 
+		hash = ((hash << 5) + hash) + c;
 	}
 	return (hash);
 }

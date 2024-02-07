@@ -12,7 +12,7 @@
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for ALX project
+ * for Holberton project
  */
 typedef struct listint_s
 {
